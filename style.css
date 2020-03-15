@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
+#bgcolor {
+    background-color: #f5faff;
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 550px 955px;
+}
+
+.color {
+    background-color: #ecf6fe;
+}
+
+.col-3 {
+    text-align: right !important;
+}
+
+.col-3 a {
+    margin-right: 20px;
+}
+
+.col-9 p {
+    font: 300 15px 'Josefin Sans';
+    line-height: 35px;
+    color: #008aff;
+    margin: 0;
+}
+
+.nav-link {
+    font: 400 16px 'Josefin Sans';
+    color: #008aff;
+    margin-left: 10px !important;
+}
+
+.nav-linkactive {
+    border-radius: 40px !important;
+    padding: 12px 35px !important;
+    background-color: #008aff !important;
+    font: 400 16px 'Josefin Sans' !important;
+    color: #FFF;
+    height: 40px;
+}
+
+.nav-linkactive:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 65px;
+}
+
+.nav {
+    margin-top: 65px !important;
+}
+
+#btn button {
+    border: none;
+    outline: none;
+    font: 400 16px 'Josefin Sans';
+    color: #474747;
+    background-color: #ffe824;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+#content h2 {
+    font: 300 33px 'Josefin Sans';
+    color: #008aff;
+    margin-top: 200px;
+    text-align: left;
+}
+
+#content h1 {
+    font: 400 68px 'Josefin Sans';
+    color: #13287e;
+    margin: 35px 0 0 0;
+}
+
+#content p {
+    font: 300 20px 'Josefin Sans';
+    line-height: 35px;
+    color: #474747;
+    margin-top: 60px;
+    text-align: left;
+}
+
+#content button {
+    font: 400 14px 'Josefin Sans';
+    color: #474747;
+    border: none;
+    outline: none;
+    padding: 20px 45px;
+    background-color: #ffe824;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-bottom: 255px;
+}
+
+/*TWO*/
+
+#section2 h2 {
+    text-align: center;
+    padding-top: 55px !important;
+    font: 400 33px 'Josefin Sans';
+    color: #008aff;
+}
+
+#section2 p {
+    text-align: center;
+    font: 300 20px 'Josefin Sans';
+    color: #474747;
+}
+
+#section2 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 28% 0 28% 0;
+    margin-top: 70px;
+}
+
+.secp {
+    font: 300 20px 'Josefin Sans';
+    line-height: 35px;
+    color: #474747;
+    margin-top: 70px;
+    text-align: left !important;
+}
+
+.col li {
+    font: 300 20px 'Josefin Sans';
+    list-style: disc;
+    line-height: 35px;
+    color: #008aff;
+}
+
+.batn {
+    display: flex;
+    margin: auto;
+    margin-top: 50px !important;
+    margin-bottom: 80px;
+    border: none;
+    outline: none;
+    background-color: #ffe824;
+    font: 400 14px 'Josefin Sans';
+    color: #474747;
+    padding: 20px 20px;
+    border-radius: 40px;
+}
+
+/*THREE*/
+
+#section3 {
+    background-color: #fefefe;
+}
+
+#section3 i {
+    position: relative;
+    z-index: 2;
+    left: 50%;
+    top: -2.1em;
+    transform: translate(-50%, -6%);
+    font-size: 50px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+#section3 h3 {
+    font: 400 33px 'Josefin Sans';
+    color: #13287e;
+    text-align: center;
+    margin-top: 110px;
+}
+
+#section3 h2 {
+    font: 400 28px "Josefin Sans";
+    text-align: center;
+    color: #13287e;
+    margin-top: 50px;
+}
+
+#section3 img {
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.col hr {
+    width: 120px;
+    height: 2px;
+    background-color: #ffec4f;
+    border: none;
+}
+
+#section3 p {
+    font: 300 19px "Josefin Sans";
+    line-height: 33px;
+    color: #474747;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 225px;
+}
+
+/*FOUR*/
+
+.card-img {
+    opacity: 0.2;
+}
+
+.card-title4 {
+    font: 400 33px "Josefin Sans";
+    color: #13287e;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.card-text4 {
+    font: 300 20px "Josefin Sans";
+    line-height: 35px;
+    color: #474747;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.coruselin {
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.card-text4one {
+    font: 400 19px "Josefin Sans";
+    line-height: 23px;
+    color: #f7b74d;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.card-text4two {
+    font: 300 16px "Josefin Sans";
+    line-height: 23px;
+    color: #474747;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+/*Five*/
+
+#section5 {
+    background-color: #fcfcfc;
+}
+
+#section5 h1 {
+    font: 400 33px "Josefin Sans";
+    color: #13287e;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.sctp {
+    font: 300 20px "Josefin Sans";
+    margin-top: 60px;
+    line-height: 35px;
+    color: #474747;
+    text-align: center !important;
+}
+
+.card-body p {
+    font: 300 16px "Josefin Sans";
+    color: #474747;
+    text-align: center;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-text {
+    font: 600 119px "Josefin Sans" !important;
+    color: #008aff !important;
+}
+
+sup {
+    font: 400 24px "Josefin Sans" !important;
+    color: #474747;
+    position: relative !important;
+    top: -2.5em !important;
+}
+
+.card {
+    margin-top: 70px !important;
+    margin-bottom: 210px !important;
+}
+
+.card-footer {
+    text-align: center !important;
+}
+
+.card-footer button {
+    margin-top: 20px !important;
+    border: none;
+    outline: none;
+    font: 400 16px 'Josefin Sans';
+    color: #474747;
+    background-color: #ffe824;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.border-success {
+    border: none !important;
+    outline: none;
+}
+
+/*SIX*/
+
+#section6 {
+    background-image: url("img/22.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 620px;
+}
+
+#section6 p {
+    background-image: url("img/Layer 13.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -10%);
+    width: 120px;
+    height: 151px;
+    font: 600 44px "Josefin Sans";
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#section6 h1 {
+    font: 600 68px "Josefin Sans";
+    color: #13287e;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#section6 h2 {
+    font: 300 20px "Josefin Sans";
+    line-height: 35px;
+    color: #474747;
+    text-align: center !important;
+}
+
+#section6 button {
+    display: flex;
+    margin: auto;
+    border: none;
+    outline: none;
+    background-color: #ffe824;
+    font: 400 14px 'Josefin Sans';
+    color: #474747;
+    padding: 20px 45px;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+#section6 i {
+    color: #030104;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+/*SEVEN*/
+
+#section7 h1 {
+    font: 400 33px "Josefin Sans";
+    color: #13287e;
+    text-align: center;
+    margin-top: 220px;
+}
+
+#section7 p {
+    font: 300 20px "Josefin Sans";
+    line-height: 35px;
+    color: #474747;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-tit {
+    font: 300 26px "Josefin Sans";
+    text-align: left;
+    color: #13287e;
+    margin-top: 60px;
+    margin-left: 0 !important;
+}
+
+.card-tex {
+    font: 300 20px "Josefin Sans";
+    text-align: left !important;
+    line-height: 35px;
+    color: #474747;
+    margin-top: 30px;
+}
+
+.btn1 {
+    background-color: #fff !important;
+    color: #008aff !important;
+    text-decoration: underline;
+    margin-top: 40px !important;
+}
+
+.cad {
+    border: none !important;
+    margin-top: 50px !important;
+}
+
+#resetnav {
+    max-width: 750px;
+    margin: auto;
+}
+
+#resetnav a {
+    text-align: center !important;
+}
+
+/*footer*/
+
+footer h1 {
+    font: 400 20px "Josefin Sans";
+    line-height: 35px;
+    color: #474747;
+    margin: 0;
+}
+
+footer h6 {
+    font: 300 20px "Josefin Sans";
+    line-height: 35px;
+    color: #474747;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+#text {
+    font: 400 16px "Josefin Sans";
+    line-height: 30px;
+    color: #474747;
+}
+
+#btn1 {
+    border: none !important;
+    outline: none !important;
+    font: 400 16px 'Josefin Sans';
+    color: #474747;
+    background-color: #ffe824;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+footer input {
+    font: 300 16px "Josefin Sans";
+    height: 42px;
+    width: 270px;
+    border: none;
+    line-height: 90px;
+    color: #474747;
+    outline: none;
+    margin-left: 20px;
+}
+
+#btn2 {
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    cursor: pointer;
+    height: 42px;
+}
+
+#meil {
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+footer i {
+    margin-top: 20px;
+    margin-right: 30px;
+    color: #474747;
+}
+
+#footp {
+    font: 300 12px "Josefin Sans";
+    color: #474747;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer h5 {
+    font: 300 16px "Josefin Sans";
+    line-height: 30px;
+    color: #474747;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1060px) {
+    #menu {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #bgcolor {
+        background-size: 550px 1500px;
+    }
+    .coruselin {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    #section6 h1 {
+        font: 600 38px "Josefin Sans";
+    }
+    .card-img {
+        height: 800px;
+    }
+    #section2 img {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        margin: auto;
+    }
+    .card-img-top {
+        width: 300px;
+        height: 200px;
+    }
+ 
+}
